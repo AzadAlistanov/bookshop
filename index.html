@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BOOKSHOP</title>
+  <link rel="stylesheet" href="dist/main.css">
+</head>
+
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="logo">
+        <a href="#">Bookshop</a>
+      </div>
+
+      <nav>
+        <ul class="nav uppercase">
+          <li>
+            <a href="#">books</a>
+          </li>
+          <li>
+            <a href="#">audiobooks</a>
+          </li>
+          <li>
+            <a href="#">Stationery & gifts</a>
+          </li>
+          <li>
+            <a href="#">blog</a>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="inform">
+        <div class="pointer">
+          <img src="/src/images/user.svg" alt="">
+        </div>
+        <div class="pointer">
+          <img src="/src/images/search.svg" alt="">
+        </div>
+        <div class="inform__shop-bag pointer">
+          <img src="/src/images/shop-bag.svg" alt="">
+          <span></span>
+        </div>
+
+      </div>
+    </header>
+  </div>
+
+  <main>
+    <div class="container">
+      <section class="slider"></section>
+    </div>
+    <div class="container-book">
+      <section class="books">
+        <aside class="books__nav">
+          <ul>
+            <li class="books__nav-item books__nav-item-active">Architecture</li>
+            <li class="books__nav-item">Art & Fashion</li>
+            <li class="books__nav-item">Biography</li>
+            <li class="books__nav-item">Business</li>
+            <li class="books__nav-item">Crafts & Hobbies</li>
+            <li class="books__nav-item">Drama</li>
+            <li class="books__nav-item">Fiction</li>
+            <li class="books__nav-item">Food & Drink</li>
+            <li class="books__nav-item">Health & Wellbeing</li>
+            <li class="books__nav-item">History & Politics</li>
+            <li class="books__nav-item">Humor</li>
+            <li class="books__nav-item">Poetry</li>
+            <li class="books__nav-item">Psychology</li>
+            <li class="books__nav-item">Science</li>
+            <li class="books__nav-item">Technology</li>
+            <li class="books__nav-item">Travel & Maps</li>
+          </ul>
+        </aside>
+
+        <div class="books__list"></div>
+
+      </section>
+      <div class="more-books-wrap">
+        <button class="more-books uppercase pointer">Load more</button>
+      </div>
+    </div>
+    <span class="loader"></span>
+  </main>
+
+
+
+  <script src="dist/main.js"></script>
+</body>
+
+</html>
